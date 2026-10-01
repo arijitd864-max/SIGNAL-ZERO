@@ -1,0 +1,3 @@
+-keep class com.signalzero.data.models.** { *; }
+-keepclassmembers class * { @kotlinx.serialization.SerialName <fields>; }
+-dontwarn com.google.errorprone.annotations.**
